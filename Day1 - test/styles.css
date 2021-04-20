@@ -1,0 +1,131 @@
+main{
+	width: 1500px;
+}
+.main{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar-main{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 8px;
+	background: #DB162F;
+	width: 100%;
+	
+}
+.navbar-main li a{
+	text-decoration: none;
+	color: #F8EDEB;
+	
+}
+.navbar-main li a:hover{
+	color: #03071E;
+	box-shadow: 0 10px 50px #03071E;
+	
+}
+.navbar-main li{
+	list-style-type: none;
+	
+}
+.navbar-footer{
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 8px;
+	background: #DB162F;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	
+}
+.navbar-footer li a{
+	text-decoration: none;
+	color: #F8EDEB;
+	
+}
+.navbar-footer li a:hover{
+	color: #03071E;
+	box-shadow: 0 10px 50px #03071E;
+	
+}
+.navbar-footer li{
+	list-style-type: none;
+	
+	
+}
+#contact, #address, #phone{
+	margin: 0;
+	padding: 0;	
+	
+}
+.main-container{
+	font-family: 'Caveat', cursive;
+	font-weight: 400;
+	width: 85%;
+	margin: auto;
+	
+}
+#index-main div img{
+	float: left;
+}
+.course img{
+	float: left;
+	padding-right: 10px;
+	
+}
+#courses-main{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#courses-main div{
+	width: 400px;
+	margin: 10px;
+	text-decoration: none;
+	
+}
+#courses-main div a{
+	color: black;
+	text-decoration: none;
+}
+#courses-main div a:hover{
+	color: orange;
+	text-decoration: underline;
+}
+
+#contactNum{
+	padding: 6px;
+	margin: 2px;
+	
+}
+button{
+	transform: transparent;
+}
+#contactNum{
+	background: grey;
+	border: 0;
+	color: #FCA311;
+	font-family: 'Caveat', cursive;
+	font-weight: 990;
+	font-size: 20px;
+	font-style: bold;
+	margin: 30px;
+	padding: 10px;
+}
+#contactNum:hover{
+	box-shadow: 0 10px 50px red;
+	color: White;
+}
+#myContact:hover{
+	color: green;
+	
+}
+
+
+
+
+
